@@ -847,7 +847,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755309
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &133963798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1424,7 +1423,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2112769710}
+  m_Mesh: {fileID: 2067421661}
 --- !u!33 &217433112
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -1502,7 +1501,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755309
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &217433115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2344,6 +2342,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 244951622}
+  - component: {fileID: 244951624}
+  - component: {fileID: 244951623}
   m_Layer: 0
   m_Name: Camera1
   m_TagString: Untagged
@@ -2369,6 +2369,37 @@ Transform:
   - {fileID: 569362883}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &244951623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244951621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: a272be5ce57658448bd9713af780b485, type: 2}
+--- !u!114 &244951624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244951621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &257071780
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,7 +3299,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755282
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &359230365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5575,7 +5605,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 226411349}
+  m_Mesh: {fileID: 1142954792}
 --- !u!33 &412530156
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -8202,7 +8232,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 41037436}
+  m_Mesh: {fileID: 1152933917}
 --- !u!33 &673209194
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -8280,7 +8310,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755291
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &673209197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8969,7 +8998,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755309
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &706687154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13020,7 +13048,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755301
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &837289323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16342,7 +16369,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1090900866}
+  m_Mesh: {fileID: 95975889}
 --- !u!33 &974838786
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -17606,7 +17633,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755297
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &1004518018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26040,7 +26066,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1230877017}
+  m_Mesh: {fileID: 1315084519}
 --- !u!33 &1515152804
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -28015,7 +28041,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755297
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &1576212912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28305,7 +28330,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 244365354}
+  m_Mesh: {fileID: 668362933}
 --- !u!33 &1634132924
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -28979,7 +29004,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 244365354}
+  m_Mesh: {fileID: 1090900866}
 --- !u!33 &1656308388
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -30213,7 +30238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Alarm","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1452470797}
 --- !u!4 &1779079084
@@ -32390,7 +32416,6 @@ MonoBehaviour:
     RefIds:
     - rid: 4542143615855755291
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
-      data: 
 --- !u!114 &1881050071
 MonoBehaviour:
   m_ObjectHideFlags: 0
