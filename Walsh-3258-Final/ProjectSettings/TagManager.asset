@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Down
   - Carried
+  - Enemy
   layers:
   - Default
   - TransparentFX
